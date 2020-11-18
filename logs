@@ -1,0 +1,123 @@
+11-17 19:27:55.520 22685 22685 D CordovaWebViewImpl: >>> loadUrl(javascript:cordova.plugins.notification.local.core.fireEvent("add",{"title":"TEXTRAS","text":"Welcome back to the app, take some fire shots 🔥...","foreground":true,"actions":[],"attachments":[],"autoClear":true,"defaults":0,"groupSummary":false,"id":0,"launch":true,"led":true,"lockscreen":true,"number":0,"priority":1,"progressBar":{"enabled":false,"value":0,"maxValue":100,"indeterminate":false},"showWhen":true,"silent":false,"smallIcon":"res:\/\/icon","sound":true,"trigger":{"type":"calendar"},"vibrate":false,"wakeup":true,"meta":{"plugin":"cordova-plugin-local-notification","version":"0.9-beta.2"}},{"event":"add","foreground":true,"queued":false,"notification":0}))
+11-17 19:27:55.422 22685 22685 D CordovaWebViewImpl: >>> loadUrl(javascript:cordova.plugins.notification.local.core.fireEvent("trigger",{"title":"TEXTRAS","text":"Welcome back to the app, take some fire shots 🔥...","foreground":true,"actions":[],"attachments":[],"autoClear":true,"defaults":0,"groupSummary":false,"id":0,"launch":true,"led":true,"lockscreen":true,"number":0,"priority":1,"progressBar":{"enabled":false,"value":0,"maxValue":100,"indeterminate":false},"showWhen":true,"silent":false,"smallIcon":"res:\/\/icon","sound":true,"trigger":{"type":"calendar"},"vibrate":false,"wakeup":true,"meta":{"plugin":"cordova-plugin-local-notification","version":"0.9-beta.2"}},{"event":"trigger","foreground":true,"queued":false,"notification":0}))
+11-17 19:27:55.317 22685 22830 W va.hellocordov: JNI critical lock held for 27.008ms on Thread[39,tid=22830,Runnable,Thread*=0xc7f6b200,peer=0x13010630,"pool-3-thread-2"]
+11-17 19:27:54.766 22685 22830 W va.hellocordov: Verification of int de.appplant.cordova.plugin.notification.Options.getDefaults() took 118.265ms
+11-17 19:27:54.491 22685 22685 I chromium: [INFO:CONSOLE(184)] "Uncaught (in promise) ReferenceError: Comlink is not defined", source: file:///android_asset/www/js/index.js (184)
+11-17 19:27:54.308 22685 22759 I OpenGLRenderer: Davey! duration=740ms; Flags=1, IntendedVsync=43861174564454, Vsync=43861291231116, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=43861299594200, AnimationStart=43861299710700, PerformTraversalsStart=43861304670100, DrawStart=43861382803100, SyncQueued=43861384472000, SyncStart=43861386093000, IssueDrawCommandsStart=43861404902000, SwapBuffers=43861456462100, FrameCompleted=43861916335600, DequeueBufferDuration=834000, QueueBufferDuration=447824000, 
+11-17 19:27:53.836 22685 22685 D Preview : optimal preview size: w: 1280 h: 720
+11-17 19:27:53.835 22685 22685 D Preview : optimal preview size: w: 1280 h: 720
+11-17 19:27:53.751 22685 22685 D Preview : optimal preview size: w: 1280 h: 720
+11-17 19:27:53.737 22685 22685 D Preview : optimal preview size: w: 176 h: 144
+11-17 19:27:53.736 22685 22685 I chatty  : uid=10133(io.cordova.hellocordova) identical 1 line
+11-17 19:27:53.735 22685 22685 D Preview : optimal preview size: w: 176 h: 144
+11-17 19:27:53.733 22685 22685 D layout  : bottom:2562
+11-17 19:27:53.733 22685 22685 D layout  : right:1442
+11-17 19:27:53.733 22685 22685 D layout  : top:0
+11-17 19:27:53.733 22685 22685 D layout  : left:0
+11-17 19:27:53.733 22685 22685 D Preview : center vertically
+11-17 19:27:53.733 22685 22685 D Preview : previewWidth:720 previewHeight:1280
+11-17 19:27:53.708 22685 22685 D Preview : optimal preview size: w: 1280 h: 720
+11-17 19:27:53.708 22685 22685 D Preview : optimal preview size: w: 1280 h: 720
+11-17 19:27:53.683 22685 22685 D CameraActivity: cameraCurrentlyLocked:0
+11-17 19:27:53.681 22685 22685 D CameraPreview: Camera started
+11-17 19:27:53.676 22685 22685 D Preview : rotating preview 90deg
+11-17 19:27:53.676 22685 22685 D Preview : back camera is oriented -90deg from natural
+11-17 19:27:53.675 22685 22685 D Preview : screen is rotated 0deg from natural
+11-17 19:27:53.530 22685 22828 D CameraPreview: start camera action
+11-17 19:27:53.485 22685 22828 W ShortcutBadger: Badge counter seems not supported for this platform: unable to resolve intent: Intent { act=android.intent.action.BADGE_COUNT_UPDATE (has extras) }
+11-17 19:27:53.477 22685 22828 I ShortcutBadger: Checking if platform supports badge counters, attempt 3/3.
+11-17 19:27:53.469 22685 22828 I ShortcutBadger: Checking if platform supports badge counters, attempt 2/3.
+11-17 19:27:53.451 22685 22828 I ShortcutBadger: Checking if platform supports badge counters, attempt 1/3.
+11-17 19:27:53.292 22685 22734 W va.hellocordov: Long monitor contention with owner AsyncTask #1 (22760) at boolean android.os.BinderProxy.transactNative(int, android.os.Parcel, android.os.Parcel, int)(BinderProxy.java:-2) waiters=0 in com.transistorsoft.locationmanager.adapter.BackgroundGeolocation com.transistorsoft.locationmanager.adapter.BackgroundGeolocation.b(android.content.Context) for 5.601s
+11-17 19:27:53.147 22685 22700 I va.hellocordov: Background concurrent copying GC freed 6525(429KB) AllocSpace objects, 1(20KB) LOS objects, 49% free, 2150KB/4301KB, paused 2.245ms total 358.957ms
+11-17 19:27:53.105 22685 22760 W va.hellocordov: Verification of boolean com.google.android.gms.common.util.PlatformVersion.isAtLeastJellyBean() took 210.396ms
+11-17 19:27:53.016 22685 22685 D CordovaWebViewImpl: onPageFinished(file:///android_asset/www/index.html)
+11-17 19:27:52.863 22685 22685 D JsMessageQueue: Set native->JS mode to EvalBridgeMode
+11-17 19:27:52.600 22685 22733 I va.hellocordov: WaitForGcToComplete blocked ProfileSaver on ClassLinker for 1.535s
+11-17 19:27:52.600 22685 22700 I va.hellocordov: Background young concurrent copying GC freed 10943(446KB) AllocSpace objects, 1(20KB) LOS objects, 20% free, 2274KB/2861KB, paused 14.441ms total 2.277s
+11-17 19:27:51.957 22685 22685 D CordovaWebViewImpl: onPageDidNavigate(file:///android_asset/www/index.html)
+11-17 19:27:51.747 22685 22760 W va.hellocordov: Verification of void com.android.org.conscrypt.SSLUtils.<clinit>() took 692.778ms
+11-17 19:27:51.629 22685 22759 I OpenGLRenderer: Davey! duration=1029ms; Flags=0, IntendedVsync=43858207897906, Vsync=43859191231200, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=43859207746200, AnimationStart=43859207827000, PerformTraversalsStart=43859212022600, DrawStart=43859212318500, SyncQueued=43859212977000, SyncStart=43859213242900, IssueDrawCommandsStart=43859213341700, SwapBuffers=43859221376900, FrameCompleted=43859237632500, DequeueBufferDuration=112000, QueueBufferDuration=283000, 
+11-17 19:27:51.599 22685 22685 I Choreographer: Skipped 59 frames!  The application may be doing too much work on its main thread.
+11-17 19:27:51.496 22685 22685 W va.hellocordov: JNI critical lock held for 21.527ms on Thread[1,tid=22685,Runnable,Thread*=0xf2637800,peer=0x721b01f0,"main"]
+11-17 19:27:51.186 22685 22759 I OpenGLRenderer: Davey! duration=3399ms; Flags=1, IntendedVsync=43855391231352, Vsync=43857807897922, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=43857823353100, AnimationStart=43857827327600, PerformTraversalsStart=43857827424300, DrawStart=43858339038300, SyncQueued=43858448658500, SyncStart=43858452626600, IssueDrawCommandsStart=43858452918500, SwapBuffers=43858696779900, FrameCompleted=43858794393400, DequeueBufferDuration=10469000, QueueBufferDuration=3202000, 
+11-17 19:27:51.065 22685 22733 I va.hellocordov: Waiting for a blocking GC ProfileSaver
+11-17 19:27:50.950 22685 22760 W va.hellocordov: Verification of java.lang.String[] com.android.org.conscrypt.KeyManagerImpl.chooseAlias(java.lang.String[], java.security.Principal[]) took 555.417ms
+11-17 19:27:50.921 22685 22807 D EGL_emulation: eglMakeCurrent: 0xdf004d40: ver 2 0 (tinfo 0xdf000d30)
+11-17 19:27:50.919 22685 22807 D EGL_emulation: eglCreateContext: 0xdf004d40: maj 2 min 0 rcv 2
+11-17 19:27:50.843 22685 22759 D EGL_emulation: eglMakeCurrent: 0xf267f3a0: ver 2 0 (tinfo 0xf26c0310)
+11-17 19:27:50.749 22685 22807 W cr_MediaCodecUtil: HW encoder for video/avc is not available on this device.
+11-17 19:27:50.603 22685 22807 I VideoCapabilities: Unsupported profile 4 for video/mp4v-es
+11-17 19:27:50.472 22685 22759 D EGL_emulation: eglMakeCurrent: 0xf267f3a0: ver 2 0 (tinfo 0xf26c0310)
+11-17 19:27:50.439 22685 22759 D eglCodecCommon: allocate: ioctl allocate returned offset 0x3ffff2000 size 0x2000
+11-17 19:27:50.439 22685 22759 D eglCodecCommon: allocate: Ask for block of size 0x1000
+11-17 19:27:50.438 22685 22759 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_async_unmap_buffer GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_gles_max_version_2 
+11-17 19:27:50.438 22685 22759 D HostConnection: HostConnection::get() New Host Connection established 0xc49fbdc0, tid 22759
+11-17 19:27:50.437 22685 22759 D HostConnection: createUnique: call
+11-17 19:27:50.424 22685 22759 W Gralloc3: mapper 3.x is not supported
+11-17 19:27:50.398 22685 22759 D EGL_emulation: eglMakeCurrent: 0xf267f3a0: ver 2 0 (tinfo 0xf26c0310)
+11-17 19:27:50.395 22685 22759 D EGL_emulation: eglCreateContext: 0xf267f3a0: maj 2 min 0 rcv 2
+11-17 19:27:50.375 22685 22759 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+11-17 19:27:50.375 22685 22759 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_async_unmap_buffer GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_gles_max_version_2 
+11-17 19:27:50.343 22685 22759 D HostConnection: HostConnection::get() New Host Connection established 0xc49fb780, tid 22759
+11-17 19:27:50.306 22685 22760 W va.hellocordov: Accessing hidden method Ldalvik/system/CloseGuard;->warnIfOpen()V (greylist,core-platform-api, reflection, allowed)
+11-17 19:27:50.294 22685 22760 W va.hellocordov: Accessing hidden method Ldalvik/system/CloseGuard;->open(Ljava/lang/String;)V (greylist,core-platform-api, reflection, allowed)
+11-17 19:27:50.294 22685 22760 W va.hellocordov: Accessing hidden method Ldalvik/system/CloseGuard;->get()Ldalvik/system/CloseGuard; (greylist,core-platform-api, reflection, allowed)
+11-17 19:27:50.215 22685 22685 I Choreographer: Skipped 145 frames!  The application may be doing too much work on its main thread.
+11-17 19:27:50.208 22685 22760 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-17 19:27:50.131 22685 22807 E chromium: [ERROR:gl_surface_egl.cc(342)] eglChooseConfig failed with error EGL_SUCCESS
+11-17 19:27:50.034 22685 22807 D EGL_emulation: eglMakeCurrent: 0xdf003f60: ver 2 0 (tinfo 0xdf000d30)
+11-17 19:27:50.032 22685 22807 D EGL_emulation: eglCreateContext: 0xdf003f60: maj 2 min 0 rcv 2
+11-17 19:27:49.958 22685 22807 E chromium: [ERROR:gl_surface_egl.cc(342)] eglChooseConfig failed with error EGL_SUCCESS
+11-17 19:27:49.844 22685 22760 W va.hellocordov: Verification of int okhttp3.internal.Util$1.compare(java.lang.String, java.lang.String) took 291.822ms
+11-17 19:27:49.829 22685 22685 D CordovaActivity: Resumed the activity.
+11-17 19:27:49.814 22685 22807 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_async_unmap_buffer GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_gles_max_version_2 
+11-17 19:27:49.811 22685 22807 D HostConnection: HostConnection::get() New Host Connection established 0xdf03ee10, tid 22807
+11-17 19:27:49.803 22685 22685 D CordovaActivity: Started the activity.
+11-17 19:27:49.773 22685 22793 W cr_media: Requires BLUETOOTH permission
+11-17 19:27:49.734 22685 22685 D CordovaWebViewImpl: >>> loadUrl(file:///android_asset/www/index.html)
+11-17 19:27:49.731 22685 22685 D CDVLOGCAT: clearLog
+11-17 19:27:49.729 22685 22685 D CameraPreview: Constructing
+11-17 19:27:49.704 22685 22685 D PluginManager: init()
+11-17 19:27:49.663 22685 22685 D SystemWebViewEngine: CordovaWebView is running on device made by: Google
+11-17 19:27:49.506 22685 22685 W va.hellocordov: Accessing hidden method Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent;->selectionAction(IIILandroid/view/textclassifier/TextClassification;)Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent; (greylist, reflection, allowed)
+11-17 19:27:49.506 22685 22685 W va.hellocordov: Accessing hidden method Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent;->selectionAction(III)Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent; (greylist, reflection, allowed)
+11-17 19:27:49.506 22685 22685 W va.hellocordov: Accessing hidden method Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent;->selectionModified(IILandroid/view/textclassifier/TextSelection;)Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent; (greylist, reflection, allowed)
+11-17 19:27:49.506 22685 22685 W va.hellocordov: Accessing hidden method Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent;->selectionModified(IILandroid/view/textclassifier/TextClassification;)Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent; (greylist, reflection, allowed)
+11-17 19:27:49.505 22685 22685 W va.hellocordov: Accessing hidden method Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent;->selectionModified(II)Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent; (greylist, reflection, allowed)
+11-17 19:27:49.505 22685 22685 W va.hellocordov: Accessing hidden method Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent;->selectionStarted(I)Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent; (greylist, reflection, allowed)
+11-17 19:27:49.504 22685 22685 W va.hellocordov: Accessing hidden method Landroid/view/textclassifier/logging/SmartSelectionEventTracker;->logEvent(Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent;)V (greylist, reflection, allowed)
+11-17 19:27:49.504 22685 22685 W va.hellocordov: Accessing hidden method Landroid/view/textclassifier/logging/SmartSelectionEventTracker;-><init>(Landroid/content/Context;I)V (greylist, reflection, allowed)
+11-17 19:27:49.046 22685 22685 I cr_BrowserStartup: Initializing chromium process, singleProcess=false
+11-17 19:27:48.982 22685 22760 W va.hellocordov: Verification of void com.transistorsoft.locationmanager.http.HttpService.a(java.lang.String, java.util.List) took 119.326ms
+11-17 19:27:48.979 22685 22768 W va.hellocordov: Accessing hidden method Landroid/content/Context;->bindServiceAsUser(Landroid/content/Intent;Landroid/content/ServiceConnection;ILandroid/os/Handler;Landroid/os/UserHandle;)Z (greylist, reflection, allowed)
+11-17 19:27:48.967 22685 22768 W cr_ChildProcLH: Create a new ChildConnectionAllocator with package name = com.google.android.webview, sandboxed = true
+11-17 19:27:48.825 22685 22760 W va.hellocordov: Verification of void com.transistorsoft.locationmanager.location.TSLocationManager.onSingleLocationResult(com.transistorsoft.locationmanager.location.SingleLocationResult) took 192.435ms
+11-17 19:27:48.692 22685 22685 I cr_LibraryLoader: Expected native library version number "74.0.3729.185", actual native library version number "74.0.3729.185"
+11-17 19:27:48.691 22685 22685 I chromium: [INFO:library_loader_hooks.cc(50)] Chromium logging enabled: level = 0, default verbosity = 0
+11-17 19:27:48.607 22685 22685 I cr_LibraryLoader: Time to load native libraries: 5 ms (timestamps 6210-6215)
+11-17 19:27:48.532 22685 22685 I va.hellocordov: WaitForGcToComplete blocked ClassLinker on ClassLinker for 106.307ms
+11-17 19:27:47.864 22685 22685 W RenderThread: type=1400 audit(0.0:1795): avc: denied { write } for name="property_service" dev="tmpfs" ino=7195 scontext=u:r:untrusted_app:s0:c133,c256,c512,c768 tcontext=u:object_r:property_socket:s0 tclass=sock_file permissive=0 app=io.cordova.hellocordova
+11-17 19:27:48.425 22685 22685 I va.hellocordov: Waiting for a blocking GC ClassLinker
+11-17 19:27:48.264 22685 22760 W va.hellocordov: Verification of boolean org.greenrobot.eventbus.SubscriberMethodFinder$FindState.checkAdd(java.lang.reflect.Method, java.lang.Class) took 101.127ms
+11-17 19:27:48.229 22685 22685 I va.hellocordov: The ClassLoaderContext is a special shared library.
+11-17 19:27:48.191 22685 22685 I va.hellocordov: The ClassLoaderContext is a special shared library.
+11-17 19:27:48.168 22685 22685 I WebViewFactory: Loading com.google.android.webview version 74.0.3729.185 (code 373018518)
+11-17 19:27:48.113 22685 22760 W va.hellocordov: Verification of void org.greenrobot.eventbus.EventBus.postToSubscription(org.greenrobot.eventbus.Subscription, java.lang.Object, boolean) took 357.301ms
+11-17 19:27:48.000 22685 22685 D CordovaActivity: CordovaActivity.onCreate()
+11-17 19:27:48.000 22685 22685 I CordovaActivity: Apache Cordova native platform version 9.0.0 is starting
+11-17 19:27:48.000 22685 22685 I CordovaLog: Changing log level to DEBUG(3)
+11-17 19:27:48.000 22685 22762 D libEGL  : loaded /vendor/lib/egl/libGLESv2_emulation.so
+11-17 19:27:47.945 22685 22762 D libEGL  : loaded /vendor/lib/egl/libGLESv1_CM_emulation.so
+11-17 19:27:47.931 22685 22762 D libEGL  : loaded /vendor/lib/egl/libEGL_emulation.so
+11-17 19:27:47.868 22685 22762 W libc    : Unable to set property "qemu.gles" to "1": connection failed; errno=13 (Permission denied)
+11-17 19:27:47.867 22685 22762 D libEGL  : Emulator has host GPU support, qemu.gles is set to 1.
+11-17 19:27:47.830 22685 22685 W ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@322ca54
+11-17 19:27:46.948 22685 22734 E TSLocationManager: ╚═════════════════════════════════════════════
+11-17 19:27:46.948 22685 22734 E TSLocationManager: ╟─ BackgroundGeolocation is fully functional in DEBUG builds without a license.
+11-17 19:27:46.948 22685 22734 E TSLocationManager: ╟─ Failed to find license key in AndroidManifest.  Ensure you've added the key within <application><meta-data android:name="com.transistorsoft.locationmanager.license" android:value="<YOUR LICENSE KEY>" />
+11-17 19:27:46.948 22685 22734 E TSLocationManager: ╠═════════════════════════════════════════════
+11-17 19:27:46.948 22685 22734 E TSLocationManager: ║ LICENSE VALIDATION FAILURE: io.cordova.hellocordova
+11-17 19:27:46.948 22685 22734 E TSLocationManager: ╔═════════════════════════════════════════════
+11-17 19:27:46.948 22685 22734 E TSLocationManager: 
+--------- beginning of main

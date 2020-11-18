@@ -1,0 +1,165 @@
+.slider {
+	font-family: sans-serif;
+	scroll-snap-type: x mandatory;	
+	display: flex;
+	-webkit-overflow-scrolling: touch;
+	overflow-x: scroll;
+}
+.slide-1, .slide-2{
+	min-width: 100vw;
+  height: 100vh;
+  overflow-y: hidden;
+  scroll-snap-align: start;
+}
+
+:root {
+  --uniqueBlue: #5c95ff;
+  --uranianBlue: #b9e6ff;
+  --lightCoral: #f87575;
+  --melon: #ffa9a3;
+  --transparent: transparent;
+}
+html,
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+  height: 100vh;
+}
+.report_bug {
+  width: 60%;
+  margin: 20px auto;
+  background: #ccc;
+  border-radius: 8px;
+  padding: 10px;
+}
+.image_flex_container {
+  width: 97%;
+  margin: 20px auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+.image_frame {
+  margin: 0 0 15px 4%;
+  height: 250px;
+  max-height: 250px;
+  flex: 0 0 44%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.image_frame img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.cameraBtn_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.btn {
+  border: none;
+  padding: 8px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+  background-color: var(--lightCoral);
+}
+.main_page {
+  width: 100%;
+  overflow-y: scroll;
+  max-height: 100vh;
+  min-height: 100vh;
+  background: var(--uranianBlue);
+}
+.camera_preview {
+  width: 100%;
+  flex: 0 0 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.controls {
+  width: 100%;
+  height: 50px;
+  background-color: transparent;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+.controls div {
+  flex: 0 0 33.333%;
+  height: 50px;
+}
+.switch_camera_btn,
+.placeholder {
+  border: none;
+  background: transparent;
+}
+.switch_camera_btn img,
+.placeholder img {
+  width: 50px;
+}
+
+.snap_button_container,
+.switch_camera,
+.placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.snap_button_container button {
+  width: 80px;
+  height: 80px;
+  font-size: 22px;
+  padding: 15px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  background: var(--uniqueBlue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+}
+.title {
+  font-family: fantasy;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 0;
+}
+.weather_forcast ul {
+  width: 80%;
+  margin: 30px auto;
+  list-style: none;
+  padding: 0;
+}
+.weather_forcast ul li {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+.weather_forcast ul li p {
+  margin: 0;
+}
+
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}

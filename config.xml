@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>HelloCordova</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <!-- <preference name="AndroidXEnabled" value="true" /> -->
+    <!-- Allow images, xhrs, etc. to google.com -->
+<access origin="http://google.com" />
+<access origin="https://google.com" />
+<access origin="http://api.openweathermap.org" />
+<access origin="https://api.openweathermap.org" />
+
+<!-- Access to the subdomain maps.google.com -->
+<access origin="http://maps.google.com" />
+
+<!-- Access to all the subdomains on google.com -->
+<access origin="http://*.google.com" />
+
+<!-- Enable requests to content: URLs -->
+<access origin="content:///*" />
+
+<!-- Don't block any requests -->
+<access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <preference name="AndroidXEnabled" value="true" />
+        <access origin="http://api.openweathermap.org" />
+        <!-- <access origin="https://api.openweathermap.org" /> -->
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>
